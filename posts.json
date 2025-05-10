@@ -24,21 +24,21 @@
     "id": 4,
     "title": "Dicas para estudar programação sozinho",
     "date": "10 de Maio de 2025",
-    "image": "https://via.placeholder.com/800x300",
+    "image": "img/p4.jpg",
     "content": "<p>Aprender a programar por conta própria pode parecer difícil no início, mas com dedicação e organização, é totalmente possível. Hoje quero compartilhar algumas dicas que funcionaram para mim enquanto estudava de forma autodidata.</p><h3>1. Defina uma trilha de aprendizado</h3><p>Evite sair aprendendo tudo ao mesmo tempo. Escolha uma linguagem inicial (como JavaScript, Python ou Java) e monte um plano com tópicos essenciais:</p><ul><li>Lógica de programação</li><li>Variáveis, condições e loops</li><li>Funções</li><li>Estruturas de dados</li><li>Orientação a objetos (OOP)</li></ul><h3>2. Use boas fontes de estudo</h3><p>Algumas plataformas gratuitas e confiáveis:</p><ul><li>MDN Web Docs (para HTML, CSS e JS)</li><li>FreeCodeCamp</li><li>W3Schools</li><li>Documentação oficial das linguagens</li></ul><h3>3. Faça projetos reais</h3><p>Não fique apenas em tutoriais. Crie algo seu, mesmo que simples: uma calculadora, um site de portfólio, um blog (como este!).</p><blockquote class=\"blockquote\"><p class=\"mb-0\">“Você só aprende de verdade quando tenta aplicar sozinho.”</p></blockquote><p>Com consistência, você vai ver seu progresso mês a mês. Confie no processo!</p>"
   },
   {
     "id": 5,
     "title": "Meu setup de estudos para programar melhor",
     "date": "12 de Maio de 2025",
-    "image": "https://via.placeholder.com/800x300",
-    "content": "<p>Hoje quero mostrar como montei meu ambiente de estudos para programar com mais foco e produtividade. Não é nada caro ou cheio de tecnologia, mas foi montado com atenção aos detalhes.</p><h3>Equipamentos que uso:</h3><ul><li>Notebook Dell i5 com 8GB de RAM</li><li>Teclado mecânico (mais confortável para digitar por horas)</li><li>Mouse ergonômico</li><li>Monitor auxiliar de 24\" (ótimo para dividir tela entre código e navegador)</li></ul><h3>Softwares essenciais</h3><ul><li><strong>VS Code</strong> com extensões como Prettier, Live Server e GitLens</li><li><strong>Figma</strong> para rascunhos de design</li><li><strong>Git</strong> e GitHub para versionamento</li><li><strong>Notion</strong> para anotações e checklists</li></ul><h3>Dicas para manter o foco</h3><ul><li>Estudo com o celular no modo avião</li><li>Uso fones de ouvido com música instrumental</li><li>Faço pausas de 5 min a cada 25 min (técnica Pomodoro)</li></ul><p>Um ambiente organizado ajuda muito na motivação. O importante não é o equipamento, mas a constância!</p>"
+    "image": "img/p5.jpg",
+    "content": "<p>Hoje quero mostrar como montei meu ambiente de estudos para programar com mais foco e produtividade. Não é nada caro ou cheio de tecnologia, mas foi montado com atenção aos detalhes.</p><h3>Equipamentos que uso:</h3><ul><li>computador com ryzen 7 e 16GB de RAM</li><li>Teclado mecânico (mais confortável para digitar por horas)</li><li>Mouse ergonômico</li><li>Monitor auxiliar de 24\" (ótimo para dividir tela entre código e navegador)</li></ul><h3>Softwares essenciais</h3><ul><li><strong>VS Code</strong> com extensões como Prettier, Live Server e GitLens</li><li><strong>Figma</strong> para rascunhos de design</li><li><strong>Git</strong> e GitHub para versionamento</li><li><strong>Notion</strong> para anotações e checklists</li></ul><h3>Dicas para manter o foco</h3><ul><li>Estudo com o celular no modo avião</li><li>Uso fones de ouvido com música instrumental</li><li>Faço pausas de 5 min a cada 25 min (técnica Pomodoro)</li></ul><p>Um ambiente organizado ajuda muito na motivação. O importante não é o equipamento, mas a constância!</p>"
   },
   {
     "id": 6,
     "title": "Erros comuns que cometi como iniciante",
     "date": "14 de Maio de 2025",
-    "image": "https://via.placeholder.com/800x300",
+    "image": "img/p6.jpg",
     "content": "<p>Aprender a programar é uma jornada cheia de aprendizados — e também de erros. Neste post, compartilho os deslizes mais comuns que cometi no início da minha caminhada como programador.</p><h3>1. Tentar aprender tudo ao mesmo tempo</h3><p>No começo, tentei estudar várias linguagens de uma vez: Python, Java, JavaScript, C++. Resultado? Fiquei confuso e não evoluí em nenhuma.</p><h3>2. Pular os fundamentos</h3><p>Queria fazer sites bonitos antes mesmo de entender lógica básica. Isso só me atrasou. Hoje entendo que estrutura vem antes do visual.</p><h3>3. Não praticar</h3><p>Só assistir aulas não é estudar. Precisei errar bastante no código para entender de verdade como as coisas funcionam.</p><h3>4. Medo de pedir ajuda</h3><p>Fiquei semanas travado por orgulho, sem perguntar nada em fóruns ou para colegas. Aprendi que comunidade é essencial.</p><blockquote class=\"blockquote\"><p class=\"mb-0\">“Errar rápido é melhor do que não tentar.”</p></blockquote><p>Se você também está começando, saiba: errar faz parte. O importante é continuar tentando e aprendendo com cada tropeço.</p>"
   }
 
