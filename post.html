@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post do Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Meu Blog</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container mt-5" id="post-content">
+      <h1 class="mb-3" id="title">Carregando...</h1>
+      <p class="text-muted" id="date"></p>
+      <img src="" class="img-fluid mb-4" alt="Imagem do post" id="image" style="display: none;">
+      <div id="content"></div>
+      <a href="index.html" class="btn btn-secondary mt-4">← Voltar</a>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">© 2025 Braian Daros. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const postId = parseInt(params.get("id"));
+
+    fetch("posts.json")
+      .then(res => res.json())
+      .then(posts => {
+        const post = posts.find(p => p.id === postId);
+        if (post) {
+          document.getElementById("title").textContent = post.title;
+          document.getElementById("date").textContent = `Publicado em ${post.date}`;
+          document.getElementById("content").innerHTML = post.content;
+          if (post.image) {
+            const img = document.getElementById("image");
+            img.src = post.image;
+            img.style.display = 'block';
+          }
+        } else {
+          document.getElementById("post-content").innerHTML = "<p class='text-danger'>Post não encontrado.</p>";
+        }
+      })
+      .catch(() => {
+        document.getElementById("post-content").innerHTML = "<p class='text-danger'>Erro ao carregar o post.</p>";
+      });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

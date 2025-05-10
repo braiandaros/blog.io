@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Meu primeiro post",
+    "date": "5 de Maio de 2025",
+    "image": "img/p1.jpg",
+    "content": "<p>Seja bem-vindo ao meu blog! Depois de muito tempo pensando e prototipando, finalmente decidi tirar essa ideia do papel. Este espaço será onde vou registrar meus aprendizados, projetos e ideias enquanto estudo programação e desenvolvimento web.</p><h3>Por que criei este blog?</h3><p>Além de praticar HTML, CSS e JavaScript, quero criar um histórico da minha evolução como desenvolvedor. A cada semana pretendo publicar algo novo, como:</p><ul><li>Dicas de programação</li><li>Experimentos com tecnologias novas</li><li>Meus erros e acertos</li><li>Projetos pessoais</li></ul><p>Ter um blog pessoal também me ajuda a escrever melhor e organizar meus pensamentos. E quem sabe futuramente ele não se torne um portfólio profissional?</p><h3>Minha configuração inicial</h3><p>O blog está sendo feito com:</p><ul><li>HTML5 para estrutura</li><li>CSS3 com Bootstrap para o estilo</li><li>JavaScript puro para dinamismo</li><li>Arquivo JSON para organizar os posts</li></ul><p>Por enquanto, tudo é estático e hospedado localmente, mas em breve pretendo colocá-lo no GitHub Pages.</p><p>Espero que você goste de acompanhar essa jornada. Até o próximo post!</p>"
+  },
+  {
+    "id": 2,
+    "title": "Aprendendo JavaScript",
+    "date": "6 de Maio de 2025",
+    "image": "img/p2.jpeg",
+    "content": "<p>Nesta semana me aprofundei em JavaScript e comecei a entender como ele realmente funciona por baixo dos panos. É incrível como conseguimos transformar uma página HTML estática em algo interativo com poucas linhas de código.</p><h3>Primeiros conceitos que estudei</h3><ul><li>Tipos de variáveis: <code>let</code>, <code>const</code> e <code>var</code></li><li>Funções básicas e arrow functions</li><li>Eventos como <code>onclick</code> e <code>onchange</code></li><li>Manipulação do DOM com <code>document.querySelector</code></li></ul><p>Também aprendi a usar o <code>fetch()</code> para carregar dados externos (como o arquivo <code>posts.json</code> do meu blog). Com isso, consegui montar o carregamento automático de conteúdo!</p><h3>Desafios enfrentados</h3><p>Como tudo é novo, enfrentei alguns erros como:</p><ul><li>Problemas com escopo de variáveis</li><li>JSON mal formatado (esqueci vírgulas!)</li><li>Eventos que não funcionavam por erros no seletor</li></ul><p>Mas com paciência e prática, fui resolvendo um por um.</p><blockquote class=\"blockquote\"><p class=\"mb-0\">Errar é essencial no processo de aprendizagem.</p></blockquote><h3>Próximos passos</h3><p>Quero aprender sobre:</p><ul><li>Funções assíncronas e <code>async/await</code></li><li>Trabalhar com arrays e objetos</li><li>Integrar bibliotecas externas (como AOS, Swiper, etc.)</li></ul><p>Estou animado para continuar. JavaScript me mostrou o poder que temos nas mãos ao criar interfaces modernas e dinâmicas!</p>"
+  },
+  {
+    "id": 3,
+    "title": "Como criei meu próprio blog do zero",
+    "date": "8 de Maio de 2025",
+    "image": "img/p3.jpg",
+    "content": "<p>Uma das melhores decisões que tomei como estudante de programação foi criar meu próprio blog. Neste post vou compartilhar os passos que segui e o que aprendi com isso. Espero que ajude quem também está começando!</p><h3>1. Planejamento</h3><p>Antes de escrever qualquer código, fiz um esboço no papel com o que eu queria:</p><ul><li>Uma página inicial com lista de posts</li><li>Cada post em uma página separada</li><li>Design limpo e responsivo</li><li>Sem banco de dados</li></ul><h3>2. Estrutura HTML e CSS</h3><p>Montei uma estrutura base com Bootstrap. Isso acelerou meu trabalho, já que não precisei criar tudo do zero em CSS. Depois ajustei os detalhes com meu próprio arquivo <code>style.css</code>.</p><h3>3. Dinamismo com JavaScript</h3><p>Usei JavaScript para buscar os posts de um arquivo <code>posts.json</code>. Isso me permitiu separar o conteúdo do código da página. Também usei <code>URLSearchParams</code> para carregar o post correto com base no ID da URL.</p><h3>4. Publicação</h3><p>Hospedei tudo no GitHub Pages. Como é um site estático, não precisei de servidor. Apenas subi os arquivos e pronto — meu blog estava no ar.</p><blockquote class=\"blockquote\"><p class=\"mb-0\">Feito é melhor que perfeito.</p></blockquote><h3>Conclusão</h3><p>Criar esse blog me ensinou:</p><ul><li>Como montar um projeto completo do zero</li><li>Organizar conteúdo com JSON</li><li>Melhorar o uso de JavaScript</li><li>Valorizar o aprendizado prático</li></ul><p>É só o começo, mas já estou muito satisfeito com o resultado. No próximo post, vou mostrar como criar um sistema de busca no blog usando JavaScript!</p>"
+  },
+  {
+    "id": 4,
+    "title": "Dicas para estudar programação sozinho",
+    "date": "10 de Maio de 2025",
+    "image": "https://via.placeholder.com/800x300",
+    "content": "<p>Aprender a programar por conta própria pode parecer difícil no início, mas com dedicação e organização, é totalmente possível. Hoje quero compartilhar algumas dicas que funcionaram para mim enquanto estudava de forma autodidata.</p><h3>1. Defina uma trilha de aprendizado</h3><p>Evite sair aprendendo tudo ao mesmo tempo. Escolha uma linguagem inicial (como JavaScript, Python ou Java) e monte um plano com tópicos essenciais:</p><ul><li>Lógica de programação</li><li>Variáveis, condições e loops</li><li>Funções</li><li>Estruturas de dados</li><li>Orientação a objetos (OOP)</li></ul><h3>2. Use boas fontes de estudo</h3><p>Algumas plataformas gratuitas e confiáveis:</p><ul><li>MDN Web Docs (para HTML, CSS e JS)</li><li>FreeCodeCamp</li><li>W3Schools</li><li>Documentação oficial das linguagens</li></ul><h3>3. Faça projetos reais</h3><p>Não fique apenas em tutoriais. Crie algo seu, mesmo que simples: uma calculadora, um site de portfólio, um blog (como este!).</p><blockquote class=\"blockquote\"><p class=\"mb-0\">“Você só aprende de verdade quando tenta aplicar sozinho.”</p></blockquote><p>Com consistência, você vai ver seu progresso mês a mês. Confie no processo!</p>"
+  },
+  {
+    "id": 5,
+    "title": "Meu setup de estudos para programar melhor",
+    "date": "12 de Maio de 2025",
+    "image": "https://via.placeholder.com/800x300",
+    "content": "<p>Hoje quero mostrar como montei meu ambiente de estudos para programar com mais foco e produtividade. Não é nada caro ou cheio de tecnologia, mas foi montado com atenção aos detalhes.</p><h3>Equipamentos que uso:</h3><ul><li>Notebook Dell i5 com 8GB de RAM</li><li>Teclado mecânico (mais confortável para digitar por horas)</li><li>Mouse ergonômico</li><li>Monitor auxiliar de 24\" (ótimo para dividir tela entre código e navegador)</li></ul><h3>Softwares essenciais</h3><ul><li><strong>VS Code</strong> com extensões como Prettier, Live Server e GitLens</li><li><strong>Figma</strong> para rascunhos de design</li><li><strong>Git</strong> e GitHub para versionamento</li><li><strong>Notion</strong> para anotações e checklists</li></ul><h3>Dicas para manter o foco</h3><ul><li>Estudo com o celular no modo avião</li><li>Uso fones de ouvido com música instrumental</li><li>Faço pausas de 5 min a cada 25 min (técnica Pomodoro)</li></ul><p>Um ambiente organizado ajuda muito na motivação. O importante não é o equipamento, mas a constância!</p>"
+  },
+  {
+    "id": 6,
+    "title": "Erros comuns que cometi como iniciante",
+    "date": "14 de Maio de 2025",
+    "image": "https://via.placeholder.com/800x300",
+    "content": "<p>Aprender a programar é uma jornada cheia de aprendizados — e também de erros. Neste post, compartilho os deslizes mais comuns que cometi no início da minha caminhada como programador.</p><h3>1. Tentar aprender tudo ao mesmo tempo</h3><p>No começo, tentei estudar várias linguagens de uma vez: Python, Java, JavaScript, C++. Resultado? Fiquei confuso e não evoluí em nenhuma.</p><h3>2. Pular os fundamentos</h3><p>Queria fazer sites bonitos antes mesmo de entender lógica básica. Isso só me atrasou. Hoje entendo que estrutura vem antes do visual.</p><h3>3. Não praticar</h3><p>Só assistir aulas não é estudar. Precisei errar bastante no código para entender de verdade como as coisas funcionam.</p><h3>4. Medo de pedir ajuda</h3><p>Fiquei semanas travado por orgulho, sem perguntar nada em fóruns ou para colegas. Aprendi que comunidade é essencial.</p><blockquote class=\"blockquote\"><p class=\"mb-0\">“Errar rápido é melhor do que não tentar.”</p></blockquote><p>Se você também está começando, saiba: errar faz parte. O importante é continuar tentando e aprendendo com cada tropeço.</p>"
+  }
+
+]
